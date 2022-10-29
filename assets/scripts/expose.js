@@ -11,13 +11,13 @@ function init() {
   hornSelector.addEventListener('change', function() {
     let result = this.value;
     pHorn = false;
-    if(result == "Air Horn") {
+    if(result == "air-horn") {
       hornImg.src = "assets/images/air-horn.svg";
       sound.src = "assets/audio/air-horn.mp3";
-    } else if(result == "Car Horn") {
+    } else if(result == "car-horn") {
       hornImg.src = "assets/images/car-horn.svg";
       sound.src = "assets/audio/car-horn.mp3";
-    } else if(result == "Party Horn") {
+    } else if(result == "party-horn") {
       hornImg.src = "assets/images/party-horn.svg";
       sound.src = "assets/audio/party-horn.mp3";
       pHorn = true;
